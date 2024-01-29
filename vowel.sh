@@ -4,7 +4,7 @@
 echo "Enter a character"
 read ch
 
-if [[ $ch == [aeiou] ]];
+if [[ $ch == [aeiouAEIOU] ]];
 then
 	echo "Vowel"
 else
